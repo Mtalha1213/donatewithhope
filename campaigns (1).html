@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campaigns — Donate With Hope Foundation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="styles.css">
+<style>
+.filter-bar { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:36px; }
+.filter-pill { padding:9px 18px; border-radius:100px; border:1.5px solid var(--line); font-size:0.86rem; font-weight:600; color:var(--ink-soft); }
+.filter-pill.active { background:var(--navy); color:var(--white); border-color:var(--navy); }
+</style>
+</head>
+<body>
+<div class="page-transition" aria-hidden="true"><img src="assets/logo-mark-dark.svg" class="loader-mark" alt=""></div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand"><img src="assets/logo-mark-light.svg" alt="Donate With Hope Foundation logo" class="brand-icon"><span>Donate With Hope<small>FOUNDATION</small></span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="campaigns.html" class="active">Campaigns</a></li>
+      <li><a href="transparency.html">Transparency</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="donate.html" class="btn btn-primary btn-sm">Donate Now</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<div class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Campaigns</div>
+    <h1>Every Campaign, Verified First</h1>
+    <p>Browse active causes across Pakistan. Each one is field-checked before it's published here.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="filter-bar">
+      <span class="filter-pill active">All Campaigns</span>
+      <span class="filter-pill">Medical Assistance</span>
+      <span class="filter-pill">Food Program</span>
+      <span class="filter-pill">Education Support</span>
+      <span class="filter-pill">Emergency Relief</span>
+    </div>
+    <div class="campaign-grid">
+
+      <article class="campaign-card">
+        <div class="campaign-img"><span class="campaign-tag">Medical Assistance</span><img src="https://picsum.photos/seed/dwh-medical/500/380" alt="A doctor examining a young patient"></div>
+        <div class="campaign-body">
+          <h3>Emergency Surgeries for Children</h3>
+          <p>Fund life-saving surgeries for children from low-income families.</p>
+          <div class="campaign-footer">
+            <div class="progress-track"><div class="progress-fill" data-percent="68"></div></div>
+            <div class="progress-meta"><span><strong>PKR 6.8M</strong> raised</span><span>Goal: PKR 10M</span></div>
+          </div>
+          <a href="campaign-detail.html" class="btn btn-navy btn-block btn-sm">Donate to This Campaign</a>
+        </div>
+      </article>
+
+      <article class="campaign-card">
+        <div class="campaign-img"><span class="campaign-tag">Food Program</span><img src="https://picsum.photos/seed/dwh-food/500/380" alt="Volunteers packing ration bags"></div>
+        <div class="campaign-body">
+          <h3>Monthly Ration for 500 Families</h3>
+          <p>Provide a full month of staple food supplies to families facing food insecurity.</p>
+          <div class="campaign-footer">
+            <div class="progress-track"><div class="progress-fill" data-percent="82"></div></div>
+            <div class="progress-meta"><span><strong>PKR 4.1M</strong> raised</span><span>Goal: PKR 5M</span></div>
+          </div>
+          <a href="campaign-detail.html" class="btn btn-navy btn-block btn-sm">Donate to This Campaign</a>
+        </div>
+      </article>
+
+      <article class="campaign-card">
+        <div class="campaign-img"><span class="campaign-tag">Education Support</span><img src="https://picsum.photos/seed/dwh-edu/500/380" alt="Students studying in a classroom"></div>
+        <div class="campaign-body">
+          <h3>School Fees & Supplies for Orphans</h3>
+          <p>Sponsor a full academic year of tuition, books, and uniforms.</p>
+          <div class="campaign-footer">
+            <div class="progress-track"><div class="progress-fill" data-percent="45"></div></div>
+            <div class="progress-meta"><span><strong>PKR 2.3M</strong> raised</span><span>Goal: PKR 5M</span></div>
+          </div>
+          <a href="campaign-detail.html" class="btn btn-navy btn-block btn-sm">Donate to This Campaign</a>
+        </div>
+      </article>
+
+      <article class="campaign-card">
+        <div class="campaign-img"><span class="campaign-tag">Emergency Relief</span><img src="https://picsum.photos/seed/dwh-relief/500/380" alt="Relief workers distributing supplies after flooding"></div>
+        <div class="campaign-body">
+          <h3>Flood Relief — Southern Punjab</h3>
+          <p>Deliver shelter, clean water, and emergency supplies to displaced families.</p>
+          <div class="campaign-footer">
+            <div class="progress-track"><div class="progress-fill" data-percent="91"></div></div>
+            <div class="progress-meta"><span><strong>PKR 9.1M</strong> raised</span><span>Goal: PKR 10M</span></div>
+          </div>
+          <a href="campaign-detail.html" class="btn btn-navy btn-block btn-sm">Donate to This Campaign</a>
+        </div>
+      </article>
+
+      <article class="campaign-card">
+        <div class="campaign-img"><span class="campaign-tag">Medical Assistance</span><img src="https://picsum.photos/seed/dwh-dialysis/500/380" alt="A patient receiving dialysis treatment"></div>
+        <div class="campaign-body">
+          <h3>Dialysis Support Program</h3>
+          <p>Cover ongoing dialysis treatment costs for kidney patients unable to afford care.</p>
+          <div class="campaign-footer">
+            <div class="progress-track"><div class="progress-fill" data-percent="37"></div></div>
+            <div class="progress-meta"><span><strong>PKR 1.9M</strong> raised</span><span>Goal: PKR 5M</span></div>
+          </div>
+          <a href="campaign-detail.html" class="btn btn-navy btn-block btn-sm">Donate to This Campaign</a>
+        </div>
+      </article>
+
+      <article class="campaign-card">
+        <div class="campaign-img"><span class="campaign-tag">Education Support</span><img src="https://picsum.photos/seed/dwh-girls/500/380" alt="Girls attending a rural school"></div>
+        <div class="campaign-body">
+          <h3>Girls' Education Access Fund</h3>
+          <p>Remove financial barriers keeping girls out of secondary school.</p>
+          <div class="campaign-footer">
+            <div class="progress-track"><div class="progress-fill" data-percent="59"></div></div>
+            <div class="progress-meta"><span><strong>PKR 2.95M</strong> raised</span><span>Goal: PKR 5M</span></div>
+          </div>
+          <a href="campaign-detail.html" class="btn btn-navy btn-block btn-sm">Donate to This Campaign</a>
+        </div>
+      </article>
+
+      <article class="campaign-card">
+        <div class="campaign-img"><span class="campaign-tag">Food Program</span><img src="https://picsum.photos/seed/dwh-kitchen/500/380" alt="A community kitchen serving warm meals"></div>
+        <div class="campaign-body">
+          <h3>Community Kitchen — Karachi</h3>
+          <p>Fund daily hot meals for laborers and street families in Karachi.</p>
+          <div class="campaign-footer">
+            <div class="progress-track"><div class="progress-fill" data-percent="73"></div></div>
+            <div class="progress-meta"><span><strong>PKR 3.65M</strong> raised</span><span>Goal: PKR 5M</span></div>
+          </div>
+          <a href="campaign-detail.html" class="btn btn-navy btn-block btn-sm">Donate to This Campaign</a>
+        </div>
+      </article>
+
+      <article class="campaign-card">
+        <div class="campaign-img"><span class="campaign-tag">Emergency Relief</span><img src="https://picsum.photos/seed/dwh-earthquake/500/380" alt="Temporary shelters after an earthquake"></div>
+        <div class="campaign-body">
+          <h3>Earthquake Recovery — Balochistan</h3>
+          <p>Rebuild homes and provide winter shelter to earthquake-affected families.</p>
+          <div class="campaign-footer">
+            <div class="progress-track"><div class="progress-fill" data-percent="24"></div></div>
+            <div class="progress-meta"><span><strong>PKR 2.4M</strong> raised</span><span>Goal: PKR 10M</span></div>
+          </div>
+          <a href="campaign-detail.html" class="btn btn-navy btn-block btn-sm">Donate to This Campaign</a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><img src="assets/logo-mark-dark.svg" alt="Donate With Hope Foundation logo" class="brand-icon"><span>Donate With Hope</span></a>
+        <p>Connecting generous donors worldwide with verified charitable causes in Pakistan — with complete transparency at every step.</p>
+        <div class="footer-social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="X / Twitter">x</a><a href="#" aria-label="LinkedIn">in</a></div>
+      </div>
+      <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="about.html">About Us</a></li><li><a href="campaigns.html">Campaigns</a></li><li><a href="transparency.html">Financial Transparency</a></li><li><a href="volunteer.html">Volunteer</a></li></ul></div>
+      <div class="footer-col"><h4>Legal</h4><ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Use</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col footer-newsletter"><h4>Stay Updated</h4><p style="font-size:0.85rem; color:rgba(255,255,255,0.6);">Get monthly impact updates in your inbox.</p>
+        <form data-demo-form><input type="email" placeholder="Your email address" required aria-label="Email address"><button type="submit">Join</button></form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="js-year"></span> Donate With Hope Foundation. All rights reserved.</span>
+      <div class="legal-links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="contact.html">Contact</a></div>
+    </div>
+  </div>
+</footer>
+
+
+<div class="sticky-donate-bar">
+  <span>Every gift is tracked, start to finish.</span>
+  <a href="donate.html" class="btn btn-primary btn-sm">Donate</a>
+</div>
+<nav class="bottom-nav" aria-label="Mobile navigation"><a href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg><span>Home</span></a><a href="campaigns.html" class="active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/></svg><span>Campaigns</span></a><a href="donate.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z"/></svg><span>Donate</span></a><a href="transparency.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-3"/></svg><span>Impact</span></a><a href="contact.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg><span>More</span></a></nav>
+<script src="script.js"></script>
+</body>
+</html>

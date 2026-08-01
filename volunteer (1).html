@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Volunteer — Donate With Hope Foundation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="stylesheet" href="styles.css">
+<style>
+.demo-note { display:none; margin-top:16px; padding:14px 18px; background:rgba(46,139,87,0.1); border:1px solid rgba(46,139,87,0.3); border-radius:var(--radius-sm); color:var(--emerald-deep); font-size:0.88rem; font-weight:600; }
+</style>
+</head>
+<body>
+<div class="page-transition" aria-hidden="true"><img src="assets/logo-mark-dark.svg" class="loader-mark" alt=""></div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand"><img src="assets/logo-mark-light.svg" alt="Donate With Hope Foundation logo" class="brand-icon"><span>Donate With Hope<small>FOUNDATION</small></span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="campaigns.html">Campaigns</a></li>
+      <li><a href="transparency.html">Transparency</a></li>
+      <li><a href="volunteer.html" class="active">Volunteer</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="donate.html" class="btn btn-primary btn-sm">Donate Now</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<div class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Volunteer</div>
+    <h1>Give Your Time, Multiply the Impact</h1>
+    <p>Join a trained, background-checked network of volunteers working directly with the families we support.</p>
+  </div>
+</div>
+
+<section class="section-tight">
+  <div class="container two-col">
+    <div>
+      <span class="tag-pill">Why volunteer with us</span>
+      <h2>Real work, close to the ground</h2>
+      <p style="margin-top:16px;">Our volunteers help verify beneficiary cases, coordinate food and medical distributions, support fundraising events, and document campaign progress. It's hands-on, and it's the reason our donors trust what we report.</p>
+      <ul style="margin-top:20px; display:flex; flex-direction:column; gap:12px;">
+        <li style="display:flex; gap:10px; align-items:flex-start;"><span style="color:var(--emerald);">✓</span><span>Flexible commitment — from a single event to ongoing field work</span></li>
+        <li style="display:flex; gap:10px; align-items:flex-start;"><span style="color:var(--emerald);">✓</span><span>Full orientation and safety training provided</span></li>
+        <li style="display:flex; gap:10px; align-items:flex-start;"><span style="color:var(--emerald);">✓</span><span>Certificate of service for verified volunteer hours</span></li>
+      </ul>
+    </div>
+    <div class="hero-media" style="aspect-ratio:4/4.5; box-shadow: var(--shadow-md);">
+      <img src="https://picsum.photos/seed/dwh-volunteer/700/780" alt="Volunteers sorting donated supplies together">
+    </div>
+  </div>
+</section>
+
+<section class="bg-mist">
+  <div class="container" style="max-width:820px;">
+    <div class="section-head center">
+      <span class="eyebrow">Volunteer Application</span>
+      <h2>Tell us about yourself</h2>
+    </div>
+    <form id="volunteerForm" data-demo-form class="form-card">
+      <div class="form-row">
+        <div class="field"><label for="vFullName">Full Name</label><input type="text" id="vFullName" required></div>
+        <div class="field"><label for="vEmail">Email Address</label><input type="email" id="vEmail" required></div>
+      </div>
+      <div class="form-row">
+        <div class="field"><label for="vPhone">Phone Number</label><input type="tel" id="vPhone" required></div>
+        <div class="field"><label for="vCity">City</label><input type="text" id="vCity" required></div>
+      </div>
+
+      <div class="field">
+        <label>Skills & Interests</label>
+        <div class="checkbox-grid">
+          <label class="checkbox-pill"><input type="checkbox"> Field Distribution</label>
+          <label class="checkbox-pill"><input type="checkbox"> Medical / Healthcare</label>
+          <label class="checkbox-pill"><input type="checkbox"> Teaching / Tutoring</label>
+          <label class="checkbox-pill"><input type="checkbox"> Fundraising & Events</label>
+          <label class="checkbox-pill"><input type="checkbox"> Photography / Media</label>
+          <label class="checkbox-pill"><input type="checkbox"> Administration</label>
+        </div>
+      </div>
+
+      <div class="field" style="margin-top:20px;">
+        <label for="vAvailability">Availability</label>
+        <select id="vAvailability">
+          <option>Weekdays</option>
+          <option>Weekends</option>
+          <option>Evenings</option>
+          <option>Flexible / Any time</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="vExperience">Relevant Experience</label>
+        <textarea id="vExperience" placeholder="Tell us about any past volunteer, professional, or community experience"></textarea>
+      </div>
+
+      <div class="field">
+        <label for="vBackground">Background Check Consent</label>
+        <select id="vBackground">
+          <option>I consent to a background check if selected</option>
+          <option>I'd like more information first</option>
+        </select>
+      </div>
+
+      <button type="submit" class="btn btn-primary btn-block">Submit Application</button>
+      <div class="demo-note form-demo-note">✓ This is a front-end preview — applications aren't yet wired to a database. Connect a backend to start receiving real submissions.</div>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="brand"><img src="assets/logo-mark-dark.svg" alt="Donate With Hope Foundation logo" class="brand-icon"><span>Donate With Hope</span></a>
+        <p>Connecting generous donors worldwide with verified charitable causes in Pakistan — with complete transparency at every step.</p>
+        <div class="footer-social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Instagram">ig</a><a href="#" aria-label="X / Twitter">x</a><a href="#" aria-label="LinkedIn">in</a></div>
+      </div>
+      <div class="footer-col"><h4>Quick Links</h4><ul><li><a href="about.html">About Us</a></li><li><a href="campaigns.html">Campaigns</a></li><li><a href="transparency.html">Financial Transparency</a></li><li><a href="volunteer.html">Volunteer</a></li></ul></div>
+      <div class="footer-col"><h4>Legal</h4><ul><li><a href="privacy.html">Privacy Policy</a></li><li><a href="terms.html">Terms of Use</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col footer-newsletter"><h4>Stay Updated</h4><p style="font-size:0.85rem; color:rgba(255,255,255,0.6);">Get monthly impact updates in your inbox.</p>
+        <form data-demo-form><input type="email" placeholder="Your email address" required aria-label="Email address"><button type="submit">Join</button></form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span class="js-year"></span> Donate With Hope Foundation. All rights reserved.</span>
+      <div class="legal-links"><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="contact.html">Contact</a></div>
+    </div>
+  </div>
+</footer>
+
+
+<div class="sticky-donate-bar">
+  <span>Every gift is tracked, start to finish.</span>
+  <a href="donate.html" class="btn btn-primary btn-sm">Donate</a>
+</div>
+<nav class="bottom-nav" aria-label="Mobile navigation"><a href="index.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg><span>Home</span></a><a href="campaigns.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/></svg><span>Campaigns</span></a><a href="donate.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z"/></svg><span>Donate</span></a><a href="transparency.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-3"/></svg><span>Impact</span></a><a href="contact.html" class="active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg><span>More</span></a></nav>
+<script src="script.js"></script>
+</body>
+</html>
