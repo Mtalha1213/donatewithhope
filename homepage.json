@@ -1,0 +1,97 @@
+{
+  "hero": {
+    "headline": "Hope Begins<br>With You",
+    "subtext": "Donate With Hope Foundation connects generous donors worldwide with verified charitable causes in Pakistan — food, healthcare, education, and emergency relief, delivered with complete transparency.",
+    "image": "https://picsum.photos/seed/dwh-hero-2026/1800/1000"
+  },
+  "appeal": {
+    "label": "Urgent Appeal",
+    "title": "Flood Relief — Southern Punjab",
+    "text": "Thousands of families are without shelter or clean water. Your donation today provides emergency food, medical care, and temporary shelter.",
+    "link": "campaign-detail.html"
+  },
+  "stats": [
+    { "value": 18400, "prefix": "", "suffix": "+", "label": "Families Helped" },
+    { "value": 620000, "prefix": "", "suffix": "+", "label": "Meals Distributed" },
+    { "value": 9200, "prefix": "", "suffix": "+", "label": "Medical Cases Supported" },
+    { "value": 4150, "prefix": "", "suffix": "+", "label": "Students Sponsored" },
+    { "value": 2.4, "prefix": "$", "suffix": "M+", "label": "Total Donations" },
+    { "value": 24, "prefix": "", "suffix": "+", "label": "Countries Supporting" }
+  ],
+  "campaigns": [
+    {
+      "tag": "Medical Assistance",
+      "title": "Emergency Surgeries for Children",
+      "description": "Fund life-saving surgeries for children from low-income families across Punjab and Sindh.",
+      "image": "https://picsum.photos/seed/dwh-medical/500/380",
+      "raised": "PKR 6.8M",
+      "goal": "PKR 10M",
+      "percent": 68,
+      "link": "campaign-detail.html"
+    },
+    {
+      "tag": "Food Program",
+      "title": "Monthly Ration for 500 Families",
+      "description": "Provide a full month of staple food supplies to families facing food insecurity.",
+      "image": "https://picsum.photos/seed/dwh-food/500/380",
+      "raised": "PKR 4.1M",
+      "goal": "PKR 5M",
+      "percent": 82,
+      "link": "campaign-detail.html"
+    },
+    {
+      "tag": "Education Support",
+      "title": "School Fees & Supplies for Orphans",
+      "description": "Sponsor a full academic year of tuition, books, and uniforms for a child in need.",
+      "image": "https://picsum.photos/seed/dwh-edu/500/380",
+      "raised": "PKR 2.3M",
+      "goal": "PKR 5M",
+      "percent": 45,
+      "link": "campaign-detail.html"
+    },
+    {
+      "tag": "Emergency Relief",
+      "title": "Flood Relief — Southern Punjab",
+      "description": "Deliver shelter, clean water, and emergency supplies to families displaced by flooding.",
+      "image": "https://picsum.photos/seed/dwh-relief/500/380",
+      "raised": "PKR 9.1M",
+      "goal": "PKR 10M",
+      "percent": 91,
+      "link": "campaign-detail.html"
+    }
+  ],
+  "trust": {
+    "eyebrow": "Why Donors Trust Us",
+    "heading": "Every rupee is tracked, every story is real",
+    "text": "Every family and patient we support is verified in person before funds are released. Monthly and annual reports show exactly where donations go, and our on-ground volunteer network is trained and accountable at every step.",
+    "image": "https://picsum.photos/seed/dwh-trust/700/600",
+    "bullets": [
+      "Verified beneficiaries, checked in person",
+      "Transparent financial reporting, published monthly",
+      "Secure, encrypted donation processing"
+    ]
+  },
+  "news": [
+    {
+      "date": "July 18, 2026",
+      "title": "Winter Relief Reaches 1,200 Families in Sindh",
+      "text": "Blankets, warm clothing, and fuel vouchers distributed across four districts.",
+      "image": "https://picsum.photos/seed/dwh-news1/500/320",
+      "link": "#"
+    },
+    {
+      "date": "July 2, 2026",
+      "title": "New Scholarship Track Opens for Girls in STEM",
+      "text": "Fifty scholarships now available for secondary school students.",
+      "image": "https://picsum.photos/seed/dwh-news2/500/320",
+      "link": "#"
+    },
+    {
+      "date": "Upcoming — August 15, 2026",
+      "title": "Volunteer Training Day, Lahore Chapter",
+      "text": "New field volunteers will complete orientation ahead of the Qurbani campaign.",
+      "image": "https://picsum.photos/seed/dwh-news3/500/320",
+      "link": "volunteer.html"
+    }
+  ]
+}

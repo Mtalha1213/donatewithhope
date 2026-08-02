@@ -1,11 +1,11 @@
 // Donate With Hope Foundation — shared interactivity
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
 
-  /* Page load transition — brief branded fade, respects reduced motion */
-  const pageTransition = document.querySelector('.page-transition');
-  if (pageTransition) {
-    requestAnimationFrame(() => setTimeout(() => pageTransition.classList.add('done'), 280));
+  /* Load CMS-managed content first, so counters/progress-bar observers below
+     attach to the final (possibly CMS-replaced) DOM elements. */
+  if (window.__dwhLoadContent) {
+    try { await window.__dwhLoadContent(); } catch (e) { /* fall back to static HTML */ }
   }
 
   /* Header gains shadow once the page scrolls */
