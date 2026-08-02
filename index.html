@@ -11,9 +11,6 @@
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="page-transition" aria-hidden="true"><img src="assets/logo-mark-dark.svg" class="loader-mark" alt="" loading="lazy"></div>
-
-
 <div class="utility-bar">
   <div class="container">
     <div class="utility-left">
@@ -52,7 +49,6 @@
   <div class="hero-photo" style="background-image:url('https://picsum.photos/seed/dwh-hero-2026/1800/1000');"></div>
   <div class="hero-overlay"></div>
   <div class="container hero-inner">
-    <span class="hero-eyebrow verified-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg> Verified causes, real impact</span>
     <h1 class="reveal in">Hope Begins<br>With You</h1>
     <p class="hero-sub">Donate With Hope Foundation connects generous donors worldwide with verified charitable causes in Pakistan — food, healthcare, education, and emergency relief, delivered with complete transparency.</p>
     <div class="hero-actions">
@@ -60,10 +56,21 @@
       <a href="campaigns.html" class="btn btn-outline">View Campaigns</a>
     </div>
     <div class="hero-trust-row">
-      <span>📍 Based in Pakistan</span>
-      <span>✓ Registered nonprofit</span>
-      <span>🔒 Secure, encrypted donations</span>
+      <span>Based in Pakistan</span>
+      <span>Registered nonprofit</span>
+      <span>Secure, encrypted donations</span>
     </div>
+  </div>
+</section>
+
+<section class="appeal-banner">
+  <div class="container appeal-inner">
+    <div>
+      <span class="appeal-label">Urgent Appeal</span>
+      <h2>Flood Relief — Southern Punjab</h2>
+      <p>Thousands of families are without shelter or clean water. Your donation today provides emergency food, medical care, and temporary shelter.</p>
+    </div>
+    <a href="campaign-detail.html" class="btn btn-primary">Donate to This Appeal</a>
   </div>
 </section>
 
@@ -176,54 +183,20 @@
 </section>
 
 <section class="bg-mist">
-  <div class="container">
-    <div class="section-head center">
-      <span class="eyebrow">Why Choose Donate With Hope</span>
-      <h2>Every rupee is tracked, every story is real</h2>
+  <div class="container two-col">
+    <div class="hero-media" style="aspect-ratio:4/3.4; box-shadow:var(--shadow-sm);">
+      <img src="https://picsum.photos/seed/dwh-trust/700/600" alt="A Donate With Hope field team member speaking with a family" loading="lazy">
     </div>
-    <div class="feature-grid">
-      <div class="feature-card">
-        <div class="feature-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="9"/></svg>
-        </div>
-        <h3>Verified Beneficiaries</h3>
-        <p>Every family and patient we support is verified in person before funds are released.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-3"/></svg>
-        </div>
-        <h3>Transparent Financial Reporting</h3>
-        <p>Monthly and annual reports break down exactly where donations are spent.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="10" rx="2"/><path d="M7 11V7a5 5 0 0110 0v4"/></svg>
-        </div>
-        <h3>Secure Donation Processing</h3>
-        <p>All payments are encrypted and processed through trusted, secure gateways.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 20V10M18 20V4M6 20v-6"/></svg>
-        </div>
-        <h3>Regular Impact Updates</h3>
-        <p>Photos, receipts, and progress notes are shared as each campaign unfolds.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="7" r="4"/><path d="M2 21v-2a5 5 0 015-5h4a5 5 0 015 5v2"/><path d="M22 21v-2a5 5 0 00-4-4.9"/><path d="M17 3.1a5 5 0 010 9.8"/></svg>
-        </div>
-        <h3>Trusted Volunteer Network</h3>
-        <p>Our on-ground volunteers are trained, background-checked, and locally rooted.</p>
-      </div>
-      <div class="feature-card">
-        <div class="feature-icon">
-          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l9 4.5v6c0 5-3.5 8.5-9 9.5-5.5-1-9-4.5-9-9.5v-6L12 2z"/></svg>
-        </div>
-        <h3>Registered & Accountable</h3>
-        <p>Independently reviewed governance keeps us answerable to every donor.</p>
-      </div>
+    <div>
+      <span class="eyebrow">Why Donors Trust Us</span>
+      <h2>Every rupee is tracked, every story is real</h2>
+      <p style="margin-top:14px;">Every family and patient we support is verified in person before funds are released. Monthly and annual reports show exactly where donations go, and our on-ground volunteer network is trained and accountable at every step.</p>
+      <ul style="margin-top:22px; display:flex; flex-direction:column; gap:12px;">
+        <li style="display:flex; gap:10px; align-items:flex-start;"><span style="color:var(--emerald); font-weight:700;">✓</span><span>Verified beneficiaries, checked in person</span></li>
+        <li style="display:flex; gap:10px; align-items:flex-start;"><span style="color:var(--emerald); font-weight:700;">✓</span><span>Transparent financial reporting, published monthly</span></li>
+        <li style="display:flex; gap:10px; align-items:flex-start;"><span style="color:var(--emerald); font-weight:700;">✓</span><span>Secure, encrypted donation processing</span></li>
+      </ul>
+      <a href="about.html" class="btn btn-ghost-navy" style="margin-top:26px;">Learn More About Us</a>
     </div>
   </div>
 </section>
@@ -234,8 +207,7 @@
       <span class="eyebrow">How It Works</span>
       <h2>A clear line from your donation to their doorstep</h2>
     </div>
-    <div class="thread-steps">
-      <div class="thread-line"></div>
+    <div class="thread-steps thread-steps-3">
       <div class="thread-step">
         <div class="thread-num">1</div>
         <h3>Choose a Campaign</h3>
@@ -243,174 +215,19 @@
       </div>
       <div class="thread-step">
         <div class="thread-num">2</div>
-        <h3>Make a Secure Donation</h3>
-        <p>Give a one-time or monthly gift through a protected checkout.</p>
+        <h3>Give Securely</h3>
+        <p>Make a one-time or monthly donation through a protected checkout.</p>
       </div>
       <div class="thread-step">
         <div class="thread-num">3</div>
-        <h3>Receive Confirmation</h3>
-        <p>Get an instant email receipt for your records.</p>
-      </div>
-      <div class="thread-step">
-        <div class="thread-num">4</div>
-        <h3>Track Project Updates</h3>
-        <p>Follow photos and notes as your campaign progresses.</p>
-      </div>
-      <div class="thread-step">
-        <div class="thread-num">5</div>
         <h3>See Your Impact</h3>
-        <p>Read the outcome report once the campaign is complete.</p>
+        <p>Get updates and a full report as your donation reaches its cause.</p>
       </div>
     </div>
   </div>
 </section>
 
 <section class="bg-mist">
-  <div class="container">
-    <div class="section-head center">
-      <span class="eyebrow">Testimonials</span>
-      <h2>Stories from donors and families</h2>
-    </div>
-    <div class="testimonial-grid">
-      <div class="testimonial-card">
-        <div class="testimonial-quote">"</div>
-        <p class="body">I've supported charities before, but the monthly updates and receipts here made me trust exactly where my money went.</p>
-        <div class="testimonial-person">
-          <div class="testimonial-avatar"><img src="https://picsum.photos/seed/dwh-donor1/80/80" alt="" loading="lazy"></div>
-          <div><strong>Amina R.</strong><span>Monthly Donor, Toronto</span></div>
-        </div>
-      </div>
-      <div class="testimonial-card">
-        <div class="testimonial-quote">"</div>
-        <p class="body">When my son needed surgery, the foundation's medical program covered the cost and stayed in touch through his recovery.</p>
-        <div class="testimonial-person">
-          <div class="testimonial-avatar"><img src="https://picsum.photos/seed/dwh-benef1/80/80" alt="" loading="lazy"></div>
-          <div><strong>Nasreen B.</strong><span>Beneficiary, Multan</span></div>
-        </div>
-      </div>
-      <div class="testimonial-card">
-        <div class="testimonial-quote">"</div>
-        <p class="body">The volunteer team was professional and clearly cared about doing this right, not just moving fast.</p>
-        <div class="testimonial-person">
-          <div class="testimonial-avatar"><img src="https://picsum.photos/seed/dwh-donor2/80/80" alt="" loading="lazy"></div>
-          <div><strong>James K.</strong><span>Donor, London</span></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section-tight">
-  <div class="container">
-    <p style="text-align:center; font-size:0.8rem; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--ink-soft); margin-bottom:24px;">Trusted by donors and partners worldwide</p>
-    <div class="sponsor-strip">
-      <span>Crescent Relief Network</span>
-      <span>Lahore Rotary Circle</span>
-      <span>GlobalGive Alliance</span>
-      <span>Sadaqah Collective</span>
-      <span>Bridge Health Partners</span>
-    </div>
-  </div>
-</section>
-
-<section class="bg-mist">
-  <div class="container">
-    <div class="section-head center">
-      <span class="eyebrow">A Decade of Impact</span>
-      <h2>Milestones along the way</h2>
-    </div>
-    <div class="impact-timeline">
-      <div class="timeline-item reveal">
-        <time>2016</time>
-        <h3>Founded in Lahore</h3>
-        <p>Started as a small group covering a neighbor's hospital bill — the seed of what became Donate With Hope.</p>
-      </div>
-      <div class="timeline-item reveal">
-        <time>2019</time>
-        <h3>First nationwide flood response</h3>
-        <p>Delivered emergency relief to over 3,000 families across three provinces.</p>
-      </div>
-      <div class="timeline-item reveal">
-        <time>2022</time>
-        <h3>Medical program launched</h3>
-        <p>Partnered with three hospitals to fund emergency surgeries for children.</p>
-      </div>
-      <div class="timeline-item reveal">
-        <time>2026</time>
-        <h3>18,000+ families supported</h3>
-        <p>Now operating across 12 districts with a trained volunteer network of over 400 people.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container">
-    <div class="section-head center">
-      <span class="eyebrow">Where We Work</span>
-      <h2>Active projects across Pakistan</h2>
-      <p>Tap a marker to see what's running in that region.</p>
-    </div>
-    <div class="pk-map-wrap">
-      <svg viewBox="0 0 300 380" aria-label="Map of Pakistan showing active project regions">
-        <path d="M120 20 L160 15 L190 35 L210 30 L230 55 L245 90 L255 130 L260 170 L250 210 L260 245 L245 280 L220 310 L195 340 L170 360 L150 355 L140 330 L120 320 L100 300 L90 270 L70 250 L60 220 L75 190 L65 160 L80 130 L75 100 L95 70 L100 40 Z"
-              fill="var(--mist-deep)" stroke="var(--line)" stroke-width="2"/>
-        <g class="map-marker" data-label="Lahore — Medical & Education programs, 6 active campaigns">
-          <circle cx="185" cy="160" r="16" fill="var(--gold)" opacity="0.18" class="pulse"/>
-          <circle cx="185" cy="160" r="7" fill="var(--gold)" stroke="white" stroke-width="2"/>
-        </g>
-        <g class="map-marker" data-label="Karachi — Food program & community kitchens, 4 active campaigns">
-          <circle cx="120" cy="290" r="16" fill="var(--emerald)" opacity="0.18" class="pulse"/>
-          <circle cx="120" cy="290" r="7" fill="var(--emerald)" stroke="white" stroke-width="2"/>
-        </g>
-        <g class="map-marker" data-label="Multan — Emergency relief & dialysis support, 3 active campaigns">
-          <circle cx="150" cy="215" r="16" fill="var(--navy)" opacity="0.18" class="pulse"/>
-          <circle cx="150" cy="215" r="7" fill="var(--navy)" stroke="white" stroke-width="2"/>
-        </g>
-        <g class="map-marker" data-label="Quetta — Earthquake recovery & winter relief, 2 active campaigns">
-          <circle cx="90" cy="230" r="16" fill="var(--emerald-deep)" opacity="0.18" class="pulse"/>
-          <circle cx="90" cy="230" r="7" fill="var(--emerald-deep)" stroke="white" stroke-width="2"/>
-        </g>
-      </svg>
-    </div>
-    <p id="mapTooltip" style="display:none; text-align:center; margin-top:14px; font-weight:600; color:var(--navy); background:var(--mist); padding:10px 18px; border-radius:100px; max-width:520px; margin-left:auto; margin-right:auto; font-size:0.88rem;"></p>
-    <div class="map-legend">
-      <div class="map-legend-item"><span class="map-legend-dot" style="background:var(--gold);"></span>Lahore</div>
-      <div class="map-legend-item"><span class="map-legend-dot" style="background:var(--emerald);"></span>Karachi</div>
-      <div class="map-legend-item"><span class="map-legend-dot" style="background:var(--navy);"></span>Multan</div>
-      <div class="map-legend-item"><span class="map-legend-dot" style="background:var(--emerald-deep);"></span>Quetta</div>
-    </div>
-  </div>
-</section>
-
-<section class="bg-mist">
-  <div class="container">
-    <div class="section-head center">
-      <span class="eyebrow">FAQ</span>
-      <h2>Common questions</h2>
-    </div>
-    <div class="faq-list">
-      <div class="faq-item">
-        <div class="faq-question">Is my donation tax-deductible?<span class="faq-icon">+</span></div>
-        <div class="faq-answer"><p>Tax treatment depends on your country of residence and our registration status there. We'll confirm what documentation applies to you at checkout.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-question">How do I know a campaign is real?<span class="faq-icon">+</span></div>
-        <div class="faq-answer"><p>Every campaign is verified on the ground by our team before it's published, and each one includes updates, documents, and a gallery as it progresses.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-question">Can I cancel a monthly donation anytime?<span class="faq-icon">+</span></div>
-        <div class="faq-answer"><p>Yes. Monthly donations can be paused or cancelled at any time from your account settings, no questions asked.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-question">How much of my donation reaches the cause?<span class="faq-icon">+</span></div>
-        <div class="faq-answer"><p>86% of donations go directly to program delivery. The full breakdown is on our <a href="transparency.html" style="color:var(--emerald-deep); font-weight:600;">Financial Transparency</a> page.</p></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
   <div class="container">
     <div class="section-head center">
       <span class="eyebrow">Latest News</span>
@@ -511,12 +328,10 @@
   </div>
 </footer>
 
-
 <div class="sticky-donate-bar">
   <span>Every gift is tracked, start to finish.</span>
   <a href="donate.html" class="btn btn-primary btn-sm">Donate</a>
 </div>
-<nav class="bottom-nav" aria-label="Mobile navigation"><a href="index.html" class="active"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/></svg><span>Home</span></a><a href="campaigns.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18"/></svg><span>Campaigns</span></a><a href="donate.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z"/></svg><span>Donate</span></a><a href="transparency.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 17V9M13 17V5M8 17v-3"/></svg><span>Impact</span></a><a href="contact.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="5" cy="12" r="1.5"/><circle cx="12" cy="12" r="1.5"/><circle cx="19" cy="12" r="1.5"/></svg><span>More</span></a></nav>
 <script src="script.js"></script>
 </body>
 </html>
