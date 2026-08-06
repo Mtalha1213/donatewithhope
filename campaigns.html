@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Campaigns — Donate With Hope Foundation</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="page-loader" aria-hidden="true"><img src="assets/logo-mark-light.svg" alt=""></div>
+
+<div class="utility-bar">
+  <div class="container">
+    <div class="utility-left">
+      <span class="utility-item">Based in Pakistan</span>
+      <span class="utility-item">Serving Humanity Worldwide</span>
+    </div>
+    <div class="utility-right"><a href="faq.html">Help Center</a></div>
+  </div>
+</div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand"><img src="assets/logo-mark-light.svg" class="brand-icon" alt="Donate With Hope Foundation logo"><span>Donate With Hope<small>FOUNDATION</small></span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="campaigns.html" class="active">Campaigns</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="transparency.html">Transparency</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="campaigns.html" class="btn btn-primary btn-sm">Donate Now</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<div class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Campaigns</div>
+    <h1>Our Campaigns</h1>
+    <p>Four focused causes. Choose one below and give directly toward it.</p>
+  </div>
+</div>
+
+<!--
+  DONATION BUTTONS — SHOPIFY INTEGRATION NOTES
+  ─────────────────────────────────────────────
+  Each ".donate-tier-btn" below is a placeholder. Once Shopify is connected:
+  1. Create one Shopify product per donation tier (e.g. "Food for a Month, GBP 50").
+  2. Generate a Shopify Buy Button embed for that product (Shopify Admin,
+     Sales Channels, Buy Button).
+  3. Replace the placeholder anchor tag with the Buy Button embed snippet
+     Shopify gives you, right where indicated below.
+  No payment processing exists on this page yet — buttons currently link nowhere.
+-->
+
+<section class="section-tight" id="food-for-a-month">
+  <div class="container campaign-block">
+    <div class="campaign-block-header">
+      <div>
+        <span class="campaign-badge">100% Zakat Eligible</span>
+        <h2>🍲 Food for a Month</h2>
+      </div>
+    </div>
+    <div class="campaign-block-layout">
+      <div>
+        <div class="campaign-hero-img"><img src="https://picsum.photos/seed/dwh-food-main/900/560" alt="Food ration packages ready for distribution" loading="lazy"></div>
+        <p>Provide staple food supplies to families facing food insecurity. A monthly ration covers essentials like flour, rice, lentils, oil, and tea — enough to see a family through one of the hardest parts of their month.</p>
+
+        <h3 style="font-size:1.1rem; margin-top:28px; margin-bottom:14px;">Gallery</h3>
+        <div class="photo-gallery-grid" style="grid-template-columns:repeat(3,1fr);">
+          <div class="gallery-item" data-lightbox data-full="https://picsum.photos/seed/dwh-food-g1/1000/1000" data-caption="Ration packages prepared for distribution">
+            <img src="https://picsum.photos/seed/dwh-food-g1/400/400" alt="Ration packages prepared for distribution" loading="lazy">
+            <div class="gallery-item-overlay"><span>View</span></div>
+          </div>
+          <div class="gallery-item" data-lightbox data-full="https://picsum.photos/seed/dwh-food-g2/1000/1000" data-caption="Volunteers loading supplies">
+            <img src="https://picsum.photos/seed/dwh-food-g2/400/400" alt="Volunteers loading supplies" loading="lazy">
+            <div class="gallery-item-overlay"><span>View</span></div>
+          </div>
+          <div class="gallery-item" data-lightbox data-full="https://picsum.photos/seed/dwh-food-g3/1000/1000" data-caption="A family receiving their monthly package">
+            <img src="https://picsum.photos/seed/dwh-food-g3/400/400" alt="A family receiving their monthly package" loading="lazy">
+            <div class="gallery-item-overlay"><span>View</span></div>
+          </div>
+        </div>
+
+        <h3 style="font-size:1.1rem; margin-top:28px; margin-bottom:14px;">Video</h3>
+        <div class="video-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M10 8l6 4-6 4V8z"/></svg>
+          <span>Campaign video coming soon</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="campaign-progress-card">
+          <div class="progress-meta"><span><strong style="color:var(--navy); font-size:1.1rem;">£0</strong> raised</span><span>of £2,500 goal</span></div>
+          <div class="progress-track"><div class="progress-fill" data-percent="0"></div></div>
+          <p class="campaign-progress-note">Illustrative example — live totals will appear once fundraising begins.</p>
+        </div>
+
+        <h3 style="font-size:1rem; margin-bottom:14px;">Choose an Amount</h3>
+        <div class="donate-tiers">
+          <div class="donate-tier">
+            <div class="donate-tier-info"><strong>£50</strong><span>Feed a Family for 14 Days</span></div>
+            <!-- SHOPIFY BUY BUTTON PLACEHOLDER: food-50 -->
+            <a href="#" class="donate-tier-btn">Donate</a>
+          </div>
+          <div class="donate-tier">
+            <div class="donate-tier-info"><strong>£100</strong><span>Feed One Family for One Month</span></div>
+            <!-- SHOPIFY BUY BUTTON PLACEHOLDER: food-100 -->
+            <a href="#" class="donate-tier-btn">Donate</a>
+          </div>
+          <div class="donate-tier">
+            <div class="donate-tier-info"><strong>£200</strong><span>Feed Two Families for One Month</span></div>
+            <!-- SHOPIFY BUY BUTTON PLACEHOLDER: food-200 -->
+            <a href="#" class="donate-tier-btn">Donate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight bg-mist" id="student-support">
+  <div class="container campaign-block" style="border-bottom:none;">
+    <div class="campaign-block-header">
+      <div>
+        <span class="campaign-badge">100% Sadaqah</span>
+        <h2>🎓 Student Support</h2>
+      </div>
+    </div>
+    <div class="campaign-block-layout">
+      <div>
+        <div class="campaign-hero-img"><img src="https://picsum.photos/seed/dwh-student-main/900/560" alt="A student studying with school supplies" loading="lazy"></div>
+        <p>University fees stop too many capable students from finishing their education. This fund covers tuition costs directly, so a semester's fee doesn't become the reason someone's future gets put on hold.</p>
+
+        <h3 style="font-size:1.1rem; margin-top:28px; margin-bottom:14px;">Gallery</h3>
+        <div class="photo-gallery-grid" style="grid-template-columns:repeat(3,1fr);">
+          <div class="gallery-item" data-lightbox data-full="https://picsum.photos/seed/dwh-student-g1/1000/1000" data-caption="A sponsored student at university">
+            <img src="https://picsum.photos/seed/dwh-student-g1/400/400" alt="A sponsored student at university" loading="lazy">
+            <div class="gallery-item-overlay"><span>View</span></div>
+          </div>
+          <div class="gallery-item" data-lightbox data-full="https://picsum.photos/seed/dwh-student-g2/1000/1000" data-caption="Course materials provided to students">
+            <img src="https://picsum.photos/seed/dwh-student-g2/400/400" alt="Course materials provided to students" loading="lazy">
+            <div class="gallery-item-overlay"><span>View</span></div>
+          </div>
+          <div class="gallery-item" data-lightbox data-full="https://picsum.photos/seed/dwh-student-g3/1000/1000" data-caption="Campus visit with the foundation team">
+            <img src="https://picsum.photos/seed/dwh-student-g3/400/400" alt="Campus visit with the foundation team" loading="lazy">
+            <div class="gallery-item-overlay"><span>View</span></div>
+          </div>
+        </div>
+
+        <h3 style="font-size:1.1rem; margin-top:28px; margin-bottom:14px;">Video</h3>
+        <div class="video-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M10 8l6 4-6 4V8z"/></svg>
+          <span>Campaign video coming soon</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="campaign-progress-card">
+          <div class="progress-meta"><span><strong style="color:var(--navy); font-size:1.1rem;">£0</strong> raised</span><span>of £3,000 goal</span></div>
+          <div class="progress-track"><div class="progress-fill" data-percent="0"></div></div>
+          <p class="campaign-progress-note">Illustrative example — live totals will appear once fundraising begins.</p>
+        </div>
+
+        <h3 style="font-size:1rem; margin-bottom:14px;">Choose an Amount</h3>
+        <div class="donate-tiers">
+          <div class="donate-tier">
+            <div class="donate-tier-info"><strong>£150</strong><span>Half Semester University Fee</span></div>
+            <!-- SHOPIFY BUY BUTTON PLACEHOLDER: student-150 -->
+            <a href="#" class="donate-tier-btn">Donate</a>
+          </div>
+          <div class="donate-tier">
+            <div class="donate-tier-info"><strong>£300</strong><span>Full Semester University Fee</span></div>
+            <!-- SHOPIFY BUY BUTTON PLACEHOLDER: student-300 -->
+            <a href="#" class="donate-tier-btn">Donate</a>
+          </div>
+          <div class="donate-tier">
+            <div class="donate-tier-info"><strong>£600</strong><span>Sponsor Two Students</span></div>
+            <!-- SHOPIFY BUY BUTTON PLACEHOLDER: student-600 -->
+            <a href="#" class="donate-tier-btn">Donate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight" id="medical-support">
+  <div class="container campaign-block">
+    <div class="campaign-block-header">
+      <div>
+        <span class="campaign-badge">Zakat & Sadaqah Accepted</span>
+        <h2>❤️ Medical Support</h2>
+      </div>
+    </div>
+    <div class="campaign-block-layout">
+      <div>
+        <div class="campaign-hero-img"><img src="https://picsum.photos/seed/dwh-medical-main/900/560" alt="Essential medicines being prepared" loading="lazy"></div>
+        <p>From essential medicines to urgent treatment, this fund covers medical costs for families who would otherwise go without care. Every case is reviewed before support is approved.</p>
+
+        <h3 style="font-size:1.1rem; margin-top:28px; margin-bottom:14px;">Gallery</h3>
+        <div class="photo-gallery-grid" style="grid-template-columns:repeat(3,1fr);">
+          <div class="gallery-item" data-lightbox data-full="https://picsum.photos/seed/dwh-medical-g1/1000/1000" data-caption="Medicines being prepared for a patient">
+            <img src="https://picsum.photos/seed/dwh-medical-g1/400/400" alt="Medicines being prepared for a patient" loading="lazy">
+            <div class="gallery-item-overlay"><span>View</span></div>
+          </div>
+          <div class="gallery-item" data-lightbox data-full="https://picsum.photos/seed/dwh-medical-g2/1000/1000" data-caption="A consultation at a partner clinic">
+            <img src="https://picsum.photos/seed/dwh-medical-g2/400/400" alt="A consultation at a partner clinic" loading="lazy">
+            <div class="gallery-item-overlay"><span>View</span></div>
+          </div>
+          <div class="gallery-item" data-lightbox data-full="https://picsum.photos/seed/dwh-medical-g3/1000/1000" data-caption="Follow-up care for a supported patient">
+            <img src="https://picsum.photos/seed/dwh-medical-g3/400/400" alt="Follow-up care for a supported patient" loading="lazy">
+            <div class="gallery-item-overlay"><span>View</span></div>
+          </div>
+        </div>
+
+        <h3 style="font-size:1.1rem; margin-top:28px; margin-bottom:14px;">Video</h3>
+        <div class="video-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M10 8l6 4-6 4V8z"/></svg>
+          <span>Campaign video coming soon</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="campaign-progress-card">
+          <div class="progress-meta"><span><strong style="color:var(--navy); font-size:1.1rem;">£0</strong> raised</span><span>of £2,000 goal</span></div>
+          <div class="progress-track"><div class="progress-fill" data-percent="0"></div></div>
+          <p class="campaign-progress-note">Illustrative example — live totals will appear once fundraising begins.</p>
+        </div>
+
+        <h3 style="font-size:1rem; margin-bottom:14px;">Choose an Amount</h3>
+        <div class="donate-tiers">
+          <div class="donate-tier">
+            <div class="donate-tier-info"><strong>£50</strong><span>Essential Medicines</span></div>
+            <!-- SHOPIFY BUY BUTTON PLACEHOLDER: medical-50 -->
+            <a href="#" class="donate-tier-btn">Donate</a>
+          </div>
+          <div class="donate-tier">
+            <div class="donate-tier-info"><strong>£150</strong><span>Medical Treatment Support</span></div>
+            <!-- SHOPIFY BUY BUTTON PLACEHOLDER: medical-150 -->
+            <a href="#" class="donate-tier-btn">Donate</a>
+          </div>
+          <div class="donate-tier">
+            <div class="donate-tier-info"><strong>£500</strong><span>Critical Medical Assistance</span></div>
+            <!-- SHOPIFY BUY BUTTON PLACEHOLDER: medical-500 -->
+            <a href="#" class="donate-tier-btn">Donate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section-tight bg-mist" id="emergency-appeals">
+  <div class="container campaign-block" style="border-bottom:none;">
+    <div class="campaign-block-header">
+      <div>
+        <span class="campaign-badge">Zakat & Sadaqah Accepted</span>
+        <h2>🚨 Emergency Appeals</h2>
+      </div>
+    </div>
+    <div class="campaign-block-layout">
+      <div>
+        <div class="campaign-hero-img"><img src="https://picsum.photos/seed/dwh-emergency-main/900/560" alt="Emergency relief supplies being loaded" loading="lazy"></div>
+        <p>Disasters don't wait, and neither can relief. This fund stays ready to respond quickly to floods, displacement, and other emergencies with food, shelter, and essential supplies.</p>
+
+        <h3 style="font-size:1.1rem; margin-top:28px; margin-bottom:14px;">Gallery</h3>
+        <div class="photo-gallery-grid" style="grid-template-columns:repeat(3,1fr);">
+          <div class="gallery-item" data-lightbox data-full="https://picsum.photos/seed/dwh-emergency-g1/1000/1000" data-caption="Relief kits ready for dispatch">
+            <img src="https://picsum.photos/seed/dwh-emergency-g1/400/400" alt="Relief kits ready for dispatch" loading="lazy">
+            <div class="gallery-item-overlay"><span>View</span></div>
+          </div>
+          <div class="gallery-item" data-lightbox data-full="https://picsum.photos/seed/dwh-emergency-g2/1000/1000" data-caption="Emergency supplies being transported">
+            <img src="https://picsum.photos/seed/dwh-emergency-g2/400/400" alt="Emergency supplies being transported" loading="lazy">
+            <div class="gallery-item-overlay"><span>View</span></div>
+          </div>
+          <div class="gallery-item" data-lightbox data-full="https://picsum.photos/seed/dwh-emergency-g3/1000/1000" data-caption="A community relief distribution point">
+            <img src="https://picsum.photos/seed/dwh-emergency-g3/400/400" alt="A community relief distribution point" loading="lazy">
+            <div class="gallery-item-overlay"><span>View</span></div>
+          </div>
+        </div>
+
+        <h3 style="font-size:1.1rem; margin-top:28px; margin-bottom:14px;">Video</h3>
+        <div class="video-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M10 8l6 4-6 4V8z"/></svg>
+          <span>Campaign video coming soon</span>
+        </div>
+      </div>
+
+      <div>
+        <div class="campaign-progress-card">
+          <div class="progress-meta"><span><strong style="color:var(--navy); font-size:1.1rem;">£0</strong> raised</span><span>of £1,500 goal</span></div>
+          <div class="progress-track"><div class="progress-fill" data-percent="0"></div></div>
+          <p class="campaign-progress-note">Illustrative example — live totals will appear once fundraising begins.</p>
+        </div>
+
+        <h3 style="font-size:1rem; margin-bottom:14px;">Choose an Amount</h3>
+        <div class="donate-tiers">
+          <div class="donate-tier">
+            <div class="donate-tier-info"><strong>£30</strong><span>Emergency Relief Kit</span></div>
+            <!-- SHOPIFY BUY BUTTON PLACEHOLDER: emergency-30 -->
+            <a href="#" class="donate-tier-btn">Donate</a>
+          </div>
+          <div class="donate-tier">
+            <div class="donate-tier-info"><strong>£100</strong><span>Family Emergency Support</span></div>
+            <!-- SHOPIFY BUY BUTTON PLACEHOLDER: emergency-100 -->
+            <a href="#" class="donate-tier-btn">Donate</a>
+          </div>
+          <div class="donate-tier">
+            <div class="donate-tier-info"><strong>£300</strong><span>Community Relief Package</span></div>
+            <!-- SHOPIFY BUY BUTTON PLACEHOLDER: emergency-300 -->
+            <a href="#" class="donate-tier-btn">Donate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close" data-lightbox-close aria-label="Close">&times;</span>
+  <div class="lightbox-inner" data-lightbox-close>
+    <img id="lightboxImg" src="" alt="" onclick="event.stopPropagation()">
+    <p class="lightbox-caption" id="lightboxCaption"></p>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-simple">
+      <a href="index.html" class="brand"><img src="assets/logo-mark-dark.svg" class="brand-icon" alt="Donate With Hope Foundation logo"><span>Donate With Hope</span></a>
+      <ul class="footer-links-row">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="campaigns.html">Campaigns</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="transparency.html">Transparency</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms & Conditions</a></li>
+      </ul>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">ig</a>
+        <a href="#" aria-label="X / Twitter">x</a>
+      </div>
+      <a href="mailto:info@donatewithhope.org" class="footer-email">info@donatewithhope.org</a>
+    </div>
+    <div class="footer-bottom-center">© <span class="js-year"></span> Donate With Hope Foundation. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<svg width="300" height="340" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 340">
+
+  <circle cx="150" cy="180" r="140" stroke="#FFFFFF" stroke-width="2.5" fill="none" opacity="0.35"/>
+  <ellipse cx="150" cy="180" rx="55" ry="140" stroke="#FFFFFF" stroke-width="2.5" fill="none" opacity="0.35"/>
+  <path d="M14,180 Q150,218 286,180" stroke="#FFFFFF" stroke-width="2" fill="none" opacity="0.26249999999999996"/>
+  <path d="M22,125 Q150,160 278,125" stroke="#FFFFFF" stroke-width="1.6" fill="none" opacity="0.21"/>
+  <path d="M22,235 Q150,200 278,235" stroke="#FFFFFF" stroke-width="1.6" fill="none" opacity="0.21"/>
+
+  <path d="M145,290 C110,290 85,255 92,205" stroke="#FFFFFF" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <path d="M155,290 C190,290 215,255 208,205" stroke="#FFFFFF" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <path d="M0,-8 C0,-30 -20,-46 -40,-46 C-62,-46 -78,-28 -78,-6 C-78,26 -40,54 0,84 C40,54 78,26 78,-6 C78,-28 62,-46 40,-46 C20,-46 0,-30 0,-8 Z" transform="translate(150,149.4) scale(0.9)" fill="#FFFFFF"/>
+  <g transform="translate(150,142.2) scale(0.55)">
+    <path d="M0,-15 C-16,-30 -18,-55 -10,-75 C-6,-86 0,-95 0,-95 C0,-95 6,-86 10,-75 C18,-55 16,-30 0,-15 Z" fill="#FFFFFF"/>
+    <path d="M0,-90 L0,-18 M0,-55 L-9,-42 M0,-45 L9,-33" stroke="#0B3D91" stroke-width="2.4" opacity="0.55" stroke-linecap="round" fill="none"/>
+    <circle cx="0" cy="-92" r="4" fill="#F4B400"/>
+  </g>
+</svg>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us — Donate With Hope Foundation</title>
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<style>
+.demo-note { display:none; margin-top:16px; padding:14px 18px; background:rgba(46,139,87,0.1); border:1px solid rgba(46,139,87,0.3); border-radius:var(--radius-sm); color:var(--emerald-deep); font-size:0.88rem; font-weight:600; }
+</style>
+</head>
+<body>
+
+<div class="page-loader" aria-hidden="true"><img src="assets/logo-mark-light.svg" alt=""></div>
+
+<div class="utility-bar">
+  <div class="container">
+    <div class="utility-left">
+      <span class="utility-item">Based in Pakistan</span>
+      <span class="utility-item">Serving Humanity Worldwide</span>
+    </div>
+    <div class="utility-right"><a href="faq.html">Help Center</a></div>
+  </div>
+</div>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="brand"><img src="assets/logo-mark-light.svg" class="brand-icon" alt="Donate With Hope Foundation logo"><span>Donate With Hope<small>FOUNDATION</small></span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="campaigns.html">Campaigns</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="transparency.html">Transparency</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <a href="campaigns.html" class="btn btn-primary btn-sm">Donate Now</a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </nav>
+</header>
+
+<div class="page-header">
+  <div class="container">
+    <div class="breadcrumb"><a href="index.html">Home</a> / Contact</div>
+    <h1>Get in Touch</h1>
+    <p>Questions about a donation or a campaign? Send us a message — we read every one.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container" style="max-width:640px;">
+    <div style="text-align:center; margin-bottom:36px;">
+      <span class="eyebrow">Email Us Directly</span>
+      <h2><a href="mailto:info@donatewithhope.org" style="color:var(--navy);">info@donatewithhope.org</a></h2>
+    </div>
+
+    <form id="contactForm" data-demo-form class="form-card">
+      <div class="form-row">
+        <div class="field"><label for="cName">Full Name</label><input type="text" id="cName" required></div>
+        <div class="field"><label for="cEmail">Email Address</label><input type="email" id="cEmail" required></div>
+      </div>
+      <div class="field"><label for="cSubject">Subject</label>
+        <select id="cSubject">
+          <option>General Inquiry</option>
+          <option>Donation Question</option>
+          <option>Campaign Question</option>
+          <option>Media & Press</option>
+        </select>
+      </div>
+      <div class="field"><label for="cMessage">Message</label><textarea id="cMessage" placeholder="How can we help?" required></textarea></div>
+      <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+      <div class="demo-note form-demo-note">✓ This is a front-end preview — messages aren't yet delivered. Connect a form backend or email service to receive real inquiries, or use the email address above in the meantime.</div>
+    </form>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-simple">
+      <a href="index.html" class="brand"><img src="assets/logo-mark-dark.svg" class="brand-icon" alt="Donate With Hope Foundation logo"><span>Donate With Hope</span></a>
+      <ul class="footer-links-row">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="campaigns.html">Campaigns</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="transparency.html">Transparency</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms & Conditions</a></li>
+      </ul>
+      <div class="footer-social">
+        <a href="#" aria-label="Facebook">f</a>
+        <a href="#" aria-label="Instagram">ig</a>
+        <a href="#" aria-label="X / Twitter">x</a>
+      </div>
+      <a href="mailto:info@donatewithhope.org" class="footer-email">info@donatewithhope.org</a>
+    </div>
+    <div class="footer-bottom-center">© <span class="js-year"></span> Donate With Hope Foundation. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
